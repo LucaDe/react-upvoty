@@ -1,6 +1,6 @@
 {
   "name": "react-upvoty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Wrapper for Upvoty widget integration",
   "main": "./dist/index.js",
   "author": "Luca Demmel",
@@ -11,8 +11,8 @@
     "prepublish": "yarn run build"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/LucaDe/react-upvoty"
+    "type": "git",
+    "url": "https://github.com/LucaDe/react-upvoty"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
