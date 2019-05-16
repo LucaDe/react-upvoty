@@ -10,6 +10,10 @@
     "lint": "eslint ./src",
     "prepublish": "yarn run build"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/LucaDe/react-upvoty"
+  },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
