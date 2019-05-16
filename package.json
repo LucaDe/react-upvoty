@@ -1,0 +1,36 @@
+{
+  "name": "react-upvoty",
+  "version": "1.0.0",
+  "description": "React Wrapper for Upvoty widget integration",
+  "main": "./dist/index.js",
+  "author": "Luca Demmel",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.babel.js",
+    "lint": "eslint ./src",
+    "prepublish": "yarn run build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^0.1.16",
+    "eslint": "^5.8.0",
+    "eslint-plugin-react": "^7.4.0",
+    "prop-types": "^15.6.0",
+    "regenerator-runtime": "^0.12.1",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  },
+  "resolutions": {
+    "babel-core": "7.0.0-bridge.0"
+  }
+}
